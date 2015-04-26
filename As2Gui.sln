@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "As2Gui\ChatClient.csproj", "{87818CFD-DB39-4C40-BE5E-8039C8F9E75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{7566693D-9DD3-40D2-8BAB-57B61A8051CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPCommunication", "TCPCommunication\TCPCommunication.csproj", "{FD5E6B55-1C0E-49D4-A443-9EA9CDAAFFBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatLogger", "ChatLogger\ChatLogger.csproj", "{084D087B-A281-4C05-A1BF-283679DD94D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{997CDECD-EEF1-47BF-B0C7-94D84DCFCE5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregSimpleLogger", "Kaliko\GregSimpleLogger.csproj", "{C7A2F68D-D849-494A-A3A2-7EB91063C2E8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gregmcleannscc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = As2Gui\\ChatClient.csproj
+		SccProjectName1 = As2Gui
+		SccLocalPath1 = As2Gui
+		SccProjectUniqueName2 = ChatLogger\\ChatLogger.csproj
+		SccProjectName2 = ChatLogger
+		SccLocalPath2 = ChatLogger
+		SccProjectUniqueName3 = ChatServer\\ChatServer.csproj
+		SccProjectName3 = ChatServer
+		SccLocalPath3 = ChatServer
+		SccProjectUniqueName4 = TCPCommunication\\TCPCommunication.csproj
+		SccProjectName4 = TCPCommunication
+		SccLocalPath4 = TCPCommunication
+		SccProjectUniqueName5 = Interfaces\\Interfaces.csproj
+		SccProjectName5 = Interfaces
+		SccLocalPath5 = Interfaces
+		SccProjectUniqueName6 = Kaliko\\GregSimpleLogger.csproj
+		SccProjectName6 = Kaliko
+		SccLocalPath6 = Kaliko
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87818CFD-DB39-4C40-BE5E-8039C8F9E75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87818CFD-DB39-4C40-BE5E-8039C8F9E75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87818CFD-DB39-4C40-BE5E-8039C8F9E75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87818CFD-DB39-4C40-BE5E-8039C8F9E75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7566693D-9DD3-40D2-8BAB-57B61A8051CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7566693D-9DD3-40D2-8BAB-57B61A8051CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7566693D-9DD3-40D2-8BAB-57B61A8051CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7566693D-9DD3-40D2-8BAB-57B61A8051CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E6B55-1C0E-49D4-A443-9EA9CDAAFFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E6B55-1C0E-49D4-A443-9EA9CDAAFFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E6B55-1C0E-49D4-A443-9EA9CDAAFFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E6B55-1C0E-49D4-A443-9EA9CDAAFFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084D087B-A281-4C05-A1BF-283679DD94D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084D087B-A281-4C05-A1BF-283679DD94D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084D087B-A281-4C05-A1BF-283679DD94D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084D087B-A281-4C05-A1BF-283679DD94D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997CDECD-EEF1-47BF-B0C7-94D84DCFCE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997CDECD-EEF1-47BF-B0C7-94D84DCFCE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997CDECD-EEF1-47BF-B0C7-94D84DCFCE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997CDECD-EEF1-47BF-B0C7-94D84DCFCE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A2F68D-D849-494A-A3A2-7EB91063C2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A2F68D-D849-494A-A3A2-7EB91063C2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A2F68D-D849-494A-A3A2-7EB91063C2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A2F68D-D849-494A-A3A2-7EB91063C2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
